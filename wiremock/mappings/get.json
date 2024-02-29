@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/test"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "id": "100",
+      "lastName": "Lastname",
+      "firstName": "Firstname",
+      "birthDay": "1972-12-31T00:00:00.0Z",
+      "deathDay": null,
+      "gender": "Man"
+    },
+    "transformers": [
+      "response-template"
+    ],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

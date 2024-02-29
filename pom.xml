@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.nortal</groupId>
-    <artifactId>spock-restassured-allure</artifactId>
+    <artifactId>assertj-demo</artifactId>
     <version>1.0</version>
 
     <properties>
@@ -22,6 +22,7 @@
         <rest-assured.version>5.4.0</rest-assured.version>
         <allure.version>2.24.0</allure.version>
         <selenide.version>6.19.0</selenide.version>
+        <assertj-core.version>3.24.2</assertj-core.version>
 
         <!-- Plugin versions -->
         <gmavenplus.plugin.version>3.0.0</gmavenplus.plugin.version>
@@ -32,7 +33,7 @@
 
     <dependencies>
         <!-- Groovy -->
-        <!-- use a specific Groovy version rather than the one specified by spock-core -->
+        <!-- use a specific Groovy version rather than the one specified by spock-com.nortal.demo.AssertJTest -->
         <dependency>
             <groupId>org.apache.groovy</groupId>
             <artifactId>groovy-all</artifactId>
@@ -41,7 +42,7 @@
         </dependency>
 
         <!-- Allure -->
-        <!-- allure-spock2 dependency MUST BE before spock-core dependency,
+        <!-- allure-spock2 dependency MUST BE before spock-com.nortal.demo.AssertJTest dependency,
         see https://github.com/allure-framework/allure-java/issues/928#issuecomment-1594596412 for explanation -->
         <dependency>
             <groupId>io.qameta.allure</groupId>
@@ -79,6 +80,13 @@
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-selenide</artifactId>
             <version>${allure.version}</version>
+        </dependency>
+
+        <!-- AssertJ -->
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>${assertj-core.version}</version>
         </dependency>
 
     </dependencies>

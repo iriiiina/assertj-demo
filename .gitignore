@@ -1,18 +1,8 @@
 # Ant
 ant/
 
-# Gradle
-.gradle/
-build/
-
 # Maven
 target/
-
-# Eclipse
-.classpath
-.project
-.settings/
-bin/
 
 # IDEA
 *.iws
