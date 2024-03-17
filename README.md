@@ -20,20 +20,16 @@ IRINA IVANOVA / Senior Test Automation Engineer / EE SK ID Team
   * Examples
     * Syntax, Import, Soft Assertions https://dzone.com/articles/hamcrest-vs-assertj-assertion-frameworks-which-one
     * Custom assertions https://www.kapresoft.com/java/2023/10/27/java-assertj-vs-hamcrest-assertion.html#writing-custom-assertions
-  * Demo
+* Demo
 * Real Life Example
   * FILE-ARCHIVE
   * MID-RA
 * Bonus
   * Publication "Hamcrest vs AssertJ: an Empirical Assessment of Tester Productivity", https://sepl.dibris.unige.it/publications/2019-leotta-QUATIC.pdf
   * AssertJ Generator https://joel-costigliola.github.io/assertj/assertj-assertions-generator.html
+  * Migrate Hamcrest to AssertJ https://docs.openrewrite.org/running-recipes/popular-recipe-guides/hamcrest-to-assertj
 * Conclusion
 * Questions
-
-# TODO
-
-* AssertJ Generator?
-* Migration Script?
 
 # Demo
 
