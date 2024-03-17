@@ -43,5 +43,4 @@ class Hamcrest extends Spec {
         assertThat(responseBody["gender"], equalTo("Man"))
     }
 
-
 }
