@@ -39,7 +39,7 @@ class Hamcrest extends Spec {
         assertThat(responseBody["lastName"], equalTo("Lastname"))
         assertThat(responseBody["firstName"], equalTo("Firstname"))
         assertThat(responseBody["birthDay"], notNullValue())
-        assertThat(responseBody["deathDay"], notNullValue())
+        assertThat(responseBody["deathDay"], nullValue())
         assertThat(responseBody["gender"], equalTo("Man"))
     }
 
