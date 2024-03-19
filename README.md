@@ -26,8 +26,8 @@ IRINA IVANOVA / Senior Test Automation Engineer / EE SK ID Team
   * MID-RA
 * Bonus
   * Publication "Hamcrest vs AssertJ: an Empirical Assessment of Tester Productivity", https://sepl.dibris.unige.it/publications/2019-leotta-QUATIC.pdf
-  * AssertJ Generator https://joel-costigliola.github.io/assertj/assertj-assertions-generator.html
-  * Migrate Hamcrest to AssertJ https://docs.openrewrite.org/running-recipes/popular-recipe-guides/hamcrest-to-assertj
+  * AssertJ Generator, https://joel-costigliola.github.io/assertj/assertj-assertions-generator.html
+  * Migrate Hamcrest to AssertJ, https://docs.openrewrite.org/running-recipes/popular-recipe-guides/hamcrest-to-assertj
 * Conclusion
 * Questions
 
